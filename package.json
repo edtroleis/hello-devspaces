@@ -1,0 +1,15 @@
+{
+  "name": "hello-devspaces",
+  "version": "1.0.0",
+  "description": "API de exemplo com Express e Swagger UI para demonstração do Red Hat OpenShift Dev Spaces",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Edtroleis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
