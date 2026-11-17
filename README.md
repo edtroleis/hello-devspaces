@@ -1,12 +1,22 @@
 # Hello Dev Spaces API
 
+[![Open in Dev Spaces](https://img.shields.io/badge/Open%20in-Dev%20Spaces-EE0000?logo=redhat&logoColor=white)](https://devspaces.apps.rm1.0a51.p1.openshiftapps.com/dashboard/#/load-factory?url=https://github.com/edtroleis/hello-devspaces)
+
 Aplicação Node.js de exemplo usada na demonstração do **Red Hat OpenShift Dev Spaces**.
 
 É uma API pequena feita com [Express](https://expressjs.com/). Ela informa a versão do Node.js e o nome do pod que atendeu a requisição. A documentação é gerada pelo [Swagger UI](https://swagger.io/tools/swagger-ui/).
 
-## Pré-requisitos
+## Abrir no Dev Spaces
 
-- Node.js e NPM (no Dev Spaces já vêm instalados na imagem do sample **Node.js Express**)
+Clique no badge acima. O Dev Spaces cria um workspace a partir do `devfile.yaml` deste repositório, com:
+
+- a mesma imagem do sample **Node.js Express** (Universal Developer Image, com Node.js e NPM já instalados)
+- a porta 3000 publicada como endpoint HTTPS
+- os comandos **Download dependencies** (`npm install`) e **Run the web app** (`node app.js`), disponíveis em *Terminal > Run Task... > devfile*
+
+## Pré-requisitos (fora do Dev Spaces)
+
+- Node.js e NPM
 
 ## Como executar
 
