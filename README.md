@@ -10,7 +10,7 @@ Aplicação Node.js de exemplo usada na demonstração do **Red Hat OpenShift De
 
 Clique no badge acima. O Dev Spaces cria um workspace a partir do `devfile.yaml` deste repositório, com:
 
-- a mesma imagem do sample **Node.js Express** (Universal Developer Image, com Node.js e NPM já instalados)
+- a Universal Developer Image (UDI), a mesma base do sample **Node.js Express**, com Node.js e NPM já instalados
 - a porta 3000 publicada como endpoint HTTPS
 - os comandos **Download dependencies** (`npm install`) e **Run the web app** (`node app.js`), disponíveis em *Terminal > Run Task... > devfile*
 
