@@ -6,6 +6,11 @@ Aplicação Node.js de exemplo usada na demonstração do **Red Hat OpenShift De
 
 É uma API pequena feita com [Express](https://expressjs.com/). Ela informa a versão do Node.js e o nome do pod que atendeu a requisição. A documentação é gerada pelo [Swagger UI](https://swagger.io/tools/swagger-ui/).
 
+## Links
+
+- **OpenShift Dev Spaces (dashboard):** https://devspaces.apps.rm1.0a51.p1.openshiftapps.com/dashboard/#/
+- **Criar o Developer Sandbox (gratuito):** https://developers.redhat.com/developer-sandbox
+
 ## Abrir no Dev Spaces
 
 Clique no badge acima. O Dev Spaces cria um workspace a partir do `devfile.yaml` deste repositório, com:
